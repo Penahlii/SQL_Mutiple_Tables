@@ -1,0 +1,120 @@
+/*1. Print all possible pairs of lines of teachers and groups*/
+
+SELECT *
+FROM TEACHERS T
+CROSS JOIN GROUPS G;
+
+/*2. Print names of faculties, where financing fund of departments
+exceeds financing fund of the faculty.*/
+
+SELECT 
+DISTINCT F.[NAME] AS FacultyName
+FROM FACULTIES F
+INNER JOIN DEPARTMENTS D ON F.ID = D.[FACULTY IDENTIFIER]
+WHERE D.FINANCING > F.FINANCING;
+
+
+/*3. Print names of the group curators and groups names they are
+supervising*/
+
+SELECT
+    C.[NAME] AS [CURATOR NAME],
+    C.SURNAME AS [CURATOR SURNAME],
+    G.[NAME] AS [GROUP NAME]
+FROM CURATORS C
+INNER JOIN [Groups and Curators] GC ON C.ID = GC.[CURATOR IDENTIFIER]
+INNER JOIN GROUPS G ON GC.[GROUP IDENTIFIER] = G.ID;
+
+/*4. Print names of the teachers who deliver lectures in the group
+"P107".*/
+
+SELECT
+    T.[NAME] AS [TEACHER NAME],
+    T.SURNAME AS [TEACHER SURNAME]
+FROM TEACHERS T
+JOIN LECTURES L ON T.ID = L.[TEACHER IDENTIFIER]
+JOIN [Groups and Lectures] GL ON L.ID = GL.[LECTURE IDENTIFIER]
+JOIN GROUPS G ON GL.[GROUP IDENTIFIER] = G.ID
+WHERE G.[NAME] = 'P107';
+
+/*5. Print names of the teachers and names of the faculties where
+they are lecturing.*/
+
+
+SELECT
+    T.[NAME] AS [TEACHER NAME],
+    T.SURNAME AS [TEACHER SURNAME],
+    F.[NAME] AS [FACULTY NAME]
+FROM TEACHERS T
+INNER JOIN LECTURES L ON T.ID = L.[TEACHER IDENTIFIER]
+INNER JOIN SUBJECTS S ON L.[SUBJECT IDENTIFIER] = S.ID
+INNER JOIN DEPARTMENTS D ON S.ID = D.ID
+INNER JOIN FACULTIES F ON D.[FACULTY IDENTIFIER] = F.ID;
+
+/*6. Print names of the departments and names of the groups that
+relate to them.*/
+
+SELECT 
+	D.[NAME] AS [DEPARTMENT NAME],
+	G.[NAME] AS [GROUP NAME]
+FROM DEPARTMENTS D
+INNER JOIN GROUPS G ON G.[DEPARTMENT IDENTIFIER] = D.ID
+
+
+/*7. Print names of the subjects that the teacher "Samantha Adams"
+teaches*/
+
+SELECT S.[NAME] AS SubjectName
+FROM TEACHERS T
+JOIN LECTURES L ON T.ID = L.[TEACHER IDENTIFIER]
+JOIN SUBJECTS S ON L.[SUBJECT IDENTIFIER] = S.ID
+WHERE
+    T.[NAME] = 'Samantha'
+    AND T.SURNAME = 'Adams';
+
+
+/*8. Print names of the departments, where "Database Theory"
+is taught.*/
+
+SELECT D.[NAME] AS DepartmentName
+FROM SUBJECTS S
+JOIN LECTURES L ON S.ID = L.[SUBJECT IDENTIFIER]
+JOIN DEPARTMENTS D ON L.[TEACHER IDENTIFIER] = D.ID
+WHERE S.[NAME] = 'Database Theory';
+
+
+/*9. Print names of the groups that belong to the "Computer Science" faculty.*/
+
+SELECT G.[NAME] AS GroupName
+FROM FACULTIES F
+INNER JOIN DEPARTMENTS D ON F.ID = D.[FACULTY IDENTIFIER]
+INNER JOIN GROUPS G ON D.ID = G.[DEPARTMENT IDENTIFIER]
+WHERE F.[NAME] = 'Computer Science';
+
+
+/*10. Print names of the 5th year groups, as well as names of the faculties to which they relate*/
+
+SELECT 
+	G.[NAME] AS [GROUP NAME],
+	F.[NAME] AS [FACULTY NAME]
+FROM FACULTIES F
+INNER JOIN DEPARTMENTS D ON F.ID = D.[FACULTY IDENTIFIER]
+INNER JOIN GROUPS G ON D.ID = G.[DEPARTMENT IDENTIFIER]
+WHERE G.[YEAR] = 5
+
+
+/*11. Print full names of the teachers and lectures they deliver (names
+of subjects and groups), and select only those lectures that are
+delivered in the classroom "B103".*/
+
+SELECT
+    T.[NAME] AS TeacherName,
+    T.SURNAME AS TeacherSurname,
+    S.[NAME] AS SubjectName,
+    G.[NAME] AS GroupName
+FROM TEACHERS T
+JOIN LECTURES L ON T.ID = L.[TEACHER IDENTIFIER]
+JOIN SUBJECTS S ON L.[SUBJECT IDENTIFIER] = S.ID
+JOIN [Groups and Lectures] GL ON L.ID = GL.[LECTURE IDENTIFIER]
+JOIN GROUPS G ON GL.[GROUP IDENTIFIER] = G.ID
+WHERE L.CLASSROOM = 'B103';

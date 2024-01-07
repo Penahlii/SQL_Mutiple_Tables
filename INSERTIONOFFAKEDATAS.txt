@@ -1,0 +1,469 @@
+USE [Academy]
+
+insert into Curators ([Name], Surname) values ('Holt', 'Braddock');
+insert into Curators ([Name], Surname) values ('Lettie', 'Shillaker');
+insert into Curators ([Name], Surname) values ('Tamera', 'Lydiatt');
+insert into Curators ([Name], Surname) values ('Evered', 'Heindl');
+insert into Curators ([Name], Surname) values ('Russ', 'Mouget');
+insert into Curators ([Name], Surname) values ('Leonore', 'Holton');
+insert into Curators ([Name], Surname) values ('Stefan', 'Wharrier');
+insert into Curators ([Name], Surname) values ('Boigie', 'Gerhold');
+insert into Curators ([Name], Surname) values ('Ephraim', 'Basford');
+insert into Curators ([Name], Surname) values ('Kelley', 'Duggon');
+insert into Curators ([Name], Surname) values ('Winonah', 'Toma');
+insert into Curators ([Name], Surname) values ('Cathi', 'Trevallion');
+insert into Curators ([Name], Surname) values ('Marika', 'Odam');
+insert into Curators ([Name], Surname) values ('Cesare', 'Lillicrap');
+insert into Curators ([Name], Surname) values ('Jesse', 'Connue');
+insert into Curators ([Name], Surname) values ('Wheeler', 'Konig');
+insert into Curators ([Name], Surname) values ('Susanna', 'Marven');
+insert into Curators ([Name], Surname) values ('Kaine', 'O''Carran');
+insert into Curators ([Name], Surname) values ('Ebony', 'Ovanesian');
+insert into Curators ([Name], Surname) values ('Elysee', 'Bebb');
+insert into Curators ([Name], Surname) values ('William', 'Doswell');
+insert into Curators ([Name], Surname) values ('Hewie', 'Gobourn');
+insert into Curators ([Name], Surname) values ('Hanna', 'Coggen');
+insert into Curators ([Name], Surname) values ('Lenna', 'Epsly');
+insert into Curators ([Name], Surname) values ('Arlee', 'Sharpley');
+insert into Curators ([Name], Surname) values ('Ferne', 'Prebble');
+insert into Curators ([Name], Surname) values ('Fredra', 'Bartolomeotti');
+insert into Curators ([Name], Surname) values ('Ofilia', 'Pendrill');
+insert into Curators ([Name], Surname) values ('Jarrid', 'Mowle');
+insert into Curators ([Name], Surname) values ('Maribel', 'Shawe');
+insert into Curators ([Name], Surname) values ('Othella', 'Jakubovski');
+insert into Curators ([Name], Surname) values ('Candi', 'Davidofski');
+insert into Curators ([Name], Surname) values ('Aharon', 'Bool');
+insert into Curators ([Name], Surname) values ('Addia', 'Spat');
+insert into Curators ([Name], Surname) values ('Marchelle', 'Cadden');
+insert into Curators ([Name], Surname) values ('Michelle', 'Affron');
+insert into Curators ([Name], Surname) values ('Nobe', 'Bowcock');
+insert into Curators ([Name], Surname) values ('Dredi', 'Vasilmanov');
+insert into Curators ([Name], Surname) values ('Octavia', 'Tomblings');
+insert into Curators ([Name], Surname) values ('Hamilton', 'Baruch');
+insert into Curators ([Name], Surname) values ('Quinn', 'Stent');
+insert into Curators ([Name], Surname) values ('Delmore', 'Howard - Gater');
+insert into Curators ([Name], Surname) values ('Min', 'Bentzen');
+insert into Curators ([Name], Surname) values ('Jayme', 'Palfreman');
+insert into Curators ([Name], Surname) values ('Elvera', 'Balsillie');
+insert into Curators ([Name], Surname) values ('Rea', 'Burrow');
+insert into Curators ([Name], Surname) values ('Bunny', 'Scoggins');
+insert into Curators ([Name], Surname) values ('Katalin', 'Milesap');
+insert into Curators ([Name], Surname) values ('Helenelizabeth', 'Johnston');
+insert into Curators ([Name], Surname) values ('Adrian', 'Hartwell');
+GO
+
+insert into Faculties (Financing, [Name]) values (513.66, 'Lattin');
+insert into Faculties (Financing, [Name]) values (2026.92, 'Gercke');
+insert into Faculties (Financing, [Name]) values (2366.92, 'Lindwasser');
+insert into Faculties (Financing, [Name]) values (1099.75, 'Drillot');
+insert into Faculties (Financing, [Name]) values (4254.35, 'Ellery');
+insert into Faculties (Financing, [Name]) values (3451.76, 'Tremmil');
+insert into Faculties (Financing, [Name]) values (4408.64, 'Cawdell');
+insert into Faculties (Financing, [Name]) values (2100.53, 'Baswall');
+insert into Faculties (Financing, [Name]) values (1297.0, 'Portal');
+insert into Faculties (Financing, [Name]) values (4352.01, 'Whatling');
+insert into Faculties (Financing, [Name]) values (743.03, 'Lygo');
+insert into Faculties (Financing, [Name]) values (3039.68, 'Crottagh');
+insert into Faculties (Financing, [Name]) values (2185.31, 'Bleue');
+insert into Faculties (Financing, [Name]) values (4460.77, 'Syrad');
+insert into Faculties (Financing, [Name]) values (2816.89, 'Drepp');
+insert into Faculties (Financing, [Name]) values (4254.23, 'Sibery');
+insert into Faculties (Financing, [Name]) values (4225.54, 'Gilliat');
+insert into Faculties (Financing, [Name]) values (3830.99, 'Vankeev');
+insert into Faculties (Financing, [Name]) values (2880.38, 'Herrema');
+insert into Faculties (Financing, [Name]) values (3192.72, 'Stemp');
+insert into Faculties (Financing, [Name]) values (1548.8, 'Farrow');
+insert into Faculties (Financing, [Name]) values (592.3, 'Eslie');
+insert into Faculties (Financing, [Name]) values (4362.28, 'Wrightam');
+insert into Faculties (Financing, [Name]) values (314.63, 'Aglione');
+insert into Faculties (Financing, [Name]) values (135.61, 'Sunner');
+insert into Faculties (Financing, [Name]) values (635.45, 'Yakovliv');
+insert into Faculties (Financing, [Name]) values (2158.64, 'Powder');
+insert into Faculties (Financing, [Name]) values (789.25, 'Work');
+insert into Faculties (Financing, [Name]) values (2133.39, 'Holgan');
+insert into Faculties (Financing, [Name]) values (2680.17, 'Laweles');
+insert into Faculties (Financing, [Name]) values (3168.28, 'Ludy');
+insert into Faculties (Financing, [Name]) values (2885.84, 'Kunzelmann');
+insert into Faculties (Financing, [Name]) values (2098.56, 'Lukins');
+insert into Faculties (Financing, [Name]) values (2247.14, 'D''Ambrosio');
+insert into Faculties (Financing, [Name]) values (1346.39, 'Losemann');
+insert into Faculties (Financing, [Name]) values (2077.32, 'Donaho');
+insert into Faculties (Financing, [Name]) values (1191.13, 'Stonhard');
+insert into Faculties (Financing, [Name]) values (222.01, 'Colling');
+insert into Faculties (Financing, [Name]) values (500.11, 'Heynel');
+insert into Faculties (Financing, [Name]) values (2811.14, 'Moxon');
+insert into Faculties (Financing, [Name]) values (3237.39, 'Hackett');
+insert into Faculties (Financing, [Name]) values (2496.2, 'Pye');
+insert into Faculties (Financing, [Name]) values (2715.84, 'Croley');
+insert into Faculties (Financing, [Name]) values (3831.07, 'Woodison');
+insert into Faculties (Financing, [Name]) values (3542.31, 'Condell');
+insert into Faculties (Financing, [Name]) values (3065.24, 'Frick');
+insert into Faculties (Financing, [Name]) values (2589.84, 'Gravatt');
+insert into Faculties (Financing, [Name]) values (967.41, 'Gounard');
+insert into Faculties (Financing, [Name]) values (2952.57, 'Klehyn');
+insert into Faculties (Financing, [Name]) values (3604.77, 'Pinckard');
+GO
+
+insert into Teachers ([Name], Salary, Surname) values ('Maggy', 2873.6, 'Wheelton');
+insert into Teachers ([Name], Salary, Surname) values ('Adaline', 1009.7, 'Middell');
+insert into Teachers ([Name], Salary, Surname) values ('Leena', 545.8, 'Gashion');
+insert into Teachers ([Name], Salary, Surname) values ('Clayborn', 3135.3, 'Leve');
+insert into Teachers ([Name], Salary, Surname) values ('Pammi', 4913.2, 'Phidgin');
+insert into Teachers ([Name], Salary, Surname) values ('Jay', 2481.3, 'Corradetti');
+insert into Teachers ([Name], Salary, Surname) values ('Viv', 2340.4, 'Brushfield');
+insert into Teachers ([Name], Salary, Surname) values ('Nickolai', 4243.6, 'Bessom');
+insert into Teachers ([Name], Salary, Surname) values ('Alastair', 4352.6, 'Logg');
+insert into Teachers ([Name], Salary, Surname) values ('Bryn', 1693.2, 'Connow');
+insert into Teachers ([Name], Salary, Surname) values ('Jacinda', 1626.5, 'Edmonds');
+insert into Teachers ([Name], Salary, Surname) values ('Mirabella', 2995.9, 'Ribou');
+insert into Teachers ([Name], Salary, Surname) values ('Joyann', 4852.5, 'St Leger');
+insert into Teachers ([Name], Salary, Surname) values ('Hall', 2469.8, 'Peddel');
+insert into Teachers ([Name], Salary, Surname) values ('Caritta', 374.0, 'Beechcraft');
+insert into Teachers ([Name], Salary, Surname) values ('Caitrin', 4610.0, 'Sends');
+insert into Teachers ([Name], Salary, Surname) values ('Lanny', 3617.5, 'Stit');
+insert into Teachers ([Name], Salary, Surname) values ('Salomo', 3108.0, 'Lowthian');
+insert into Teachers ([Name], Salary, Surname) values ('Axel', 2057.3, 'Pacheco');
+insert into Teachers ([Name], Salary, Surname) values ('Hana', 3217.6, 'Nannizzi');
+insert into Teachers ([Name], Salary, Surname) values ('Trudey', 1870.9, 'Evens');
+insert into Teachers ([Name], Salary, Surname) values ('Eolande', 2947.2, 'Tuckerman');
+insert into Teachers ([Name], Salary, Surname) values ('Jilly', 2926.6, 'Adds');
+insert into Teachers ([Name], Salary, Surname) values ('Hunt', 1882.9, 'Haggett');
+insert into Teachers ([Name], Salary, Surname) values ('Terence', 2163.0, 'Jobern');
+insert into Teachers ([Name], Salary, Surname) values ('Clarie', 1690.3, 'Westfalen');
+insert into Teachers ([Name], Salary, Surname) values ('Johnny', 1058.5, 'Matschek');
+insert into Teachers ([Name], Salary, Surname) values ('Ingaborg', 2796.8, 'Deneve');
+insert into Teachers ([Name], Salary, Surname) values ('Cally', 2811.5, 'Adriaens');
+insert into Teachers ([Name], Salary, Surname) values ('Ursala', 2426.5, 'Karlsson');
+insert into Teachers ([Name], Salary, Surname) values ('Catherina', 1402.3, 'Clemencet');
+insert into Teachers ([Name], Salary, Surname) values ('Tracey', 3704.8, 'Melia');
+insert into Teachers ([Name], Salary, Surname) values ('Irene', 699.9, 'Laughlan');
+insert into Teachers ([Name], Salary, Surname) values ('Analiese', 4636.9, 'Bolino');
+insert into Teachers ([Name], Salary, Surname) values ('Granny', 1131.3, 'Heaker');
+insert into Teachers ([Name], Salary, Surname) values ('Aeriela', 2093.4, 'Charman');
+insert into Teachers ([Name], Salary, Surname) values ('Burnard', 3527.0, 'Kield');
+insert into Teachers ([Name], Salary, Surname) values ('Janos', 2325.1, 'Shilston');
+insert into Teachers ([Name], Salary, Surname) values ('Glynda', 3760.8, 'Sawart');
+insert into Teachers ([Name], Salary, Surname) values ('Carey', 2133.3, 'Erricker');
+insert into Teachers ([Name], Salary, Surname) values ('Marlee', 3273.9, 'Dyott');
+insert into Teachers ([Name], Salary, Surname) values ('Millisent', 386.1, 'Dilley');
+insert into Teachers ([Name], Salary, Surname) values ('Ronda', 1657.8, 'Surmeyer');
+insert into Teachers ([Name], Salary, Surname) values ('Nappie', 821.7, 'Mardoll');
+insert into Teachers ([Name], Salary, Surname) values ('Emogene', 4419.0, 'Paddell');
+insert into Teachers ([Name], Salary, Surname) values ('Thom', 1630.2, 'Bullas');
+insert into Teachers ([Name], Salary, Surname) values ('Holli', 1585.0, 'Kaszper');
+insert into Teachers ([Name], Salary, Surname) values ('Cybill', 2706.1, 'Margeram');
+insert into Teachers ([Name], Salary, Surname) values ('Timmy', 1968.1, 'Barthrop');
+insert into Teachers ([Name], Salary, Surname) values ('Bernard', 993.0, 'McKmurrie');
+GO
+
+INSERT INTO Subjects ([Name]) VALUES
+('English Literature'),
+('Computer Science'),
+('History'),
+('Biology'),
+('Chemistry'),
+('Physics'),
+('Psychology'),
+('Sociology'),
+('Economics'),
+('Political Science'),
+('Philosophy'),
+('Environmental Science'),
+('Art History'),
+('Business Administration'),
+('Marketing'),
+('Anthropology'),
+('Linguistics'),
+('Geology'),
+('Astronomy'),
+('Statistics'),
+('Medicine'),
+('Architecture'),
+('Electrical Engineering'),
+('Civil Engineering'),
+('Mechanical Engineering'),
+('Law'),
+('Music'),
+('Film Studies'),
+('Education'),
+('Communication Studies'),
+('Nutrition'),
+('Environmental Engineering'),
+('Cultural Studies'),
+('Religious Studies'),
+('Graphic Design'),
+('International Relations'),
+('Public Health'),
+('Botany'),
+('Zoology'),
+('Journalism'),
+('Sports Science'),
+('Pharmacology'),
+('Biotechnology'),
+('Dance'),
+('Theatre Arts'),
+('Oceanography'),
+('Political Economy'),
+('Gender Studies'),
+('Cognitive Science'),
+('Russian Language');
+GO
+
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (2800.4, 'Durgan, Wyman and Okuneva', 43);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (6258.9, 'Howe, Herzog and Gleason', 45);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (2878.8, 'Quigley Group', 24);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (114.9, 'Cremin, White and Gulgowski', 41);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (1834.2, 'Mann-Ledner', 10);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (7827.6, 'Erdman, Hahn and Mueller', 42);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (232.4, 'Ryan and Sons', 10);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (3124.8, 'Brakus, Larson and Maggio', 1);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (6136.5, 'Weissnat-Dickens', 5);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (3799.9, 'Padberg and Sons', 29);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (6008.2, 'Rohan, Ferry and Parisian', 12);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (9480.3, 'Wisoky, Toy and Medhurst', 13);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (1274.4, 'Jenkins and Sons', 20);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (1598.5, 'Haley-Gislason', 10);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (9981.0, 'Runte-Harber', 41);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (173.2, 'Hartmann, Grant and Runte', 42);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (7919.2, 'Abbott-Gleichner', 10);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (9998.3, 'Watsica-Braun', 13);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (2789.3, 'Smitham, Bruen and Mayert', 33);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (4189.9, 'Quitzon LLC', 5);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (3205.5, 'O''Connell, Ernser and Armstrong', 50);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (6454.5, 'Daniel, Langosh and Strosin', 27);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (4316.6, 'Mosciski, Feil and Ortiz', 9);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (7843.4, 'Bogan, Lueilwitz and Hilpert', 34);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (2217.5, 'Schiller-Farrell', 27);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (804.4, 'Graham-Kutch', 13);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (8342.6, 'Schowalter, Marks and Ritchie', 4);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (1943.2, 'Mohr and Sons', 33);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (9784.9, 'Wilkinson Inc', 9);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (8253.0, 'O''Kon-Bayer', 7);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (9120.6, 'Berge LLC', 39);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (5417.6, 'Hettinger LLC', 10);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (889.4, 'King Group', 45);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (6884.2, 'Willms-Hackett', 24);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (5310.3, 'Schuppe-Turner', 46);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (8454.8, 'Cronin, Howell and Armstrong', 49);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (5243.5, 'Schoen-Schamberger', 39);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (1515.7, 'Batz, Pollich and Schmitt', 16);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (6910.5, 'Ankunding Group', 45);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (9807.1, 'Beer, Hilll and Wehner', 36);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (4824.2, 'Kuhlman-Will', 48);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (9273.4, 'Howe, Kub and Boyle', 3);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (8470.3, 'Goldner Group', 26);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (1117.1, 'Altenwerth, Greenholt and Russel', 38);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (6816.3, 'Mraz Inc', 3);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (3037.2, 'Ortiz, Heathcote and Russel', 14);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (4286.8, 'Lesch-Dietrich', 21);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (289.2, 'Kihn, Veum and Leannon', 39);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (3274.4, 'Jakubowski, Runolfsson and Hane', 20);
+insert into Departments (Financing, [Name], [FACULTY IDENTIFIER]) values (9926.2, 'Torphy-Stanton', 13);
+GO
+
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('1_37_7FBMS', 5, 46);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('9_78_3FBMS', 3, 48);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('2_64_7FBMS', 5, 4);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('5_04_6FBMS', 4, 40);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('9_86_4FBMS', 2, 8);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('4_09_7FBMS', 1, 7);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('3_35_5FBMS', 3, 40);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('0_96_7FBMS', 5, 2);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('2_79_4FBMS', 4, 43);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('7_77_6FBMS', 5, 14);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('7_65_3FBMS', 3, 9);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('0_15_5FBMS', 3, 12);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('1_00_4FBMS', 4, 15);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('8_76_0FBMS', 1, 7);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('1_57_4FBMS', 2, 26);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('4_46_8FBMS', 4, 24);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('6_79_8FBMS', 3, 47);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('8_24_7FBMS', 5, 31);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('9_36_3FBMS', 1, 41);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('4_70_4FBMS', 5, 35);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('2_16_8FBMS', 1, 30);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('5_10_5FBMS', 1, 1);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('0_74_6FBMS', 2, 24);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('5_34_9FBMS', 5, 33);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('5_12_1FBMS', 2, 20);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('6_10_7FBMS', 2, 45);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('6_39_8FBMS', 3, 7);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('3_15_7FBMS', 4, 32);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('2_83_7FBMS', 3, 49);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('4_60_8FBMS', 3, 39);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('4_03_2FBMS', 3, 45);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('1_70_6FBMS', 2, 10);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('1_65_5FBMS', 2, 46);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('1_11_5FBMS', 1, 26);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('1_41_9FBMS', 3, 43);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('9_68_4FBMS', 2, 8);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('6_99_4FBMS', 4, 27);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('2_54_6FBMS', 1, 24);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('3_65_3FBMS', 1, 26);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('7_89_8FBMS', 3, 49);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('2_13_2FBMS', 5, 35);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('0_08_0FBMS', 1, 41);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('3_25_0FBMS', 4, 43);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('2_47_9FBMS', 4, 39);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('4_88_6FBMS', 3, 30);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('9_66_4FBMS', 5, 4);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('5_44_1FBMS', 1, 21);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('2_65_9FBMS', 1, 3);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('9_17_7FBMS', 4, 33);
+insert into Groups ([Name], [Year], [DEPARTMENT IDENTIFIER]) values ('9_30_8FBMS', 5, 45);
+GO
+
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 294', 49, 30);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 568', 8, 1);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 320', 37, 14);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 484', 38, 8);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 745', 20, 41);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 081', 7, 46);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 800', 15, 19);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 093', 27, 33);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 967', 15, 9);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 500', 28, 39);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 494', 31, 33);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 484', 17, 14);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 928', 50, 35);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 618', 3, 33);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 929', 32, 1);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 634', 15, 27);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 609', 13, 22);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 122', 23, 42);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 079', 39, 14);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 194', 23, 50);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 058', 20, 43);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 926', 11, 45);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 675', 22, 12);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 108', 38, 24);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 924', 15, 32);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 552', 43, 5);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 390', 37, 2);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 426', 44, 48);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 197', 31, 46);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 967', 8, 40);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 222', 16, 8);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 517', 35, 44);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 345', 36, 17);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 948', 42, 1);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 472', 1, 11);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 214', 21, 28);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 179', 5, 34);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 093', 44, 4);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 667', 20, 12);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 535', 34, 28);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 046', 25, 1);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 506', 40, 34);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 834', 22, 5);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 507', 50, 43);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 523', 48, 18);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 323', 22, 11);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 166', 21, 45);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 765', 9, 34);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 736', 30, 36);
+insert into Lectures (CLASSROOM, [SUBJECT IDENTIFIER], [TEACHER IDENTIFIER]) values ('ROOM - 802', 19, 38);
+GO
+
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (8, 39);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (43, 15);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (5, 41);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (22, 20);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (42, 46);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (43, 1);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (31, 44);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (13, 48);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (27, 17);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (16, 34);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (25, 16);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (25, 2);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (50, 27);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (7, 11);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (6, 30);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (26, 27);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (1, 45);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (43, 27);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (27, 29);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (38, 32);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (47, 3);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (23, 39);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (12, 49);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (6, 20);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (50, 30);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (38, 35);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (24, 19);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (43, 28);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (35, 48);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (44, 17);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (1, 14);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (5, 38);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (27, 3);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (12, 14);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (36, 43);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (26, 46);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (19, 43);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (11, 47);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (28, 35);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (36, 26);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (48, 35);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (38, 40);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (4, 23);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (15, 33);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (11, 23);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (29, 4);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (16, 47);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (22, 38);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (38, 33);
+insert into [GROUPS AND CURATORS] ([CURATOR IDENTIFIER], [GROUP IDENTIFIER]) values (16, 15);
+GO
+
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (48, 12);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (47, 43);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (14, 9);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (25, 32);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (39, 8);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (23, 37);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (22, 16);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (18, 16);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (28, 10);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (32, 40);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (45, 15);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (10, 50);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (49, 9);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (41, 18);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (34, 44);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (12, 4);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (49, 25);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (20, 19);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (2, 36);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (31, 6);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (35, 32);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (39, 33);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (15, 19);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (35, 40);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (39, 4);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (30, 18);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (19, 14);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (6, 19);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (29, 42);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (45, 37);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (37, 46);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (25, 13);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (24, 6);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (5, 29);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (42, 47);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (23, 48);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (9, 6);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (13, 22);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (45, 31);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (41, 23);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (24, 9);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (13, 44);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (25, 37);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (50, 42);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (12, 24);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (17, 17);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (40, 30);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (16, 39);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (19, 11);
+insert into [GROUPS AND LECTURES] ([GROUP IDENTIFIER], [LECTURE IDENTIFIER]) values (50, 37);
